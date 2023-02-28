@@ -8,8 +8,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import profile from './img/default_profile.jpeg'
 import sicheng from './img/sicheng_chen_med.png'
 import laura from './img/laura_legg_med.jpg'
+import nathan from './img/nathan_lee_med.png'
 import jonah from './img/jonah_bogusch_med.png'
 import josh from './img/weese_josh_med.jpg'
+import cody from './img/cody_murphy_med.jpg'
+import sam from './img/samuel_haynes_med.jpg'
 import 'bootstrap/dist/css/bootstrap.css';
 import boeing from './img/boeing_logo.svg'
 import betsol from './img/betsol_logo.png'
@@ -90,7 +93,7 @@ function App() {
             <div className="row mx-5">
               <div className="col-md">
                 <img className="rounded-circle" src={profile} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Jose Lopez</h5>
+                <h5 className="pt-3">Emmanuel Adeniji</h5>
                 <h6 className="pt-1">President</h6>
               </div>
               <div className="col-md">
@@ -113,18 +116,18 @@ function App() {
           <Container className="bottom-padding text-white text-center">
             <div className="row mx-5">
               <div className="col-md">
-                <img className="rounded-circle" src={profile} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Name</h5>
+                <img className="rounded-circle" src={cody} alt="logo" width="100px" height="100px" />
+                <h5 className="pt-3">Cody Murphy</h5>
                 <h6 className="pt-1">Senior Chair</h6>
               </div>
               <div className="col-md">
-                <img className="rounded-circle" src={laura} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Laura Legg</h5>
+                <img className="rounded-circle" src={nathan} alt="logo" width="100px" height="100px" />
+                <h5 className="pt-3">Nathan Lee</h5>
                 <h6 className="pt-1">Event Chair</h6>
               </div>
               <div className="col-md">
-                <img className="rounded-circle" src={profile} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Name</h5>
+                <img className="rounded-circle" src={sam} alt="logo" width="100px" height="100px" />
+                <h5 className="pt-3">Samuel Haynes</h5>
                 <h6 className="pt-1">Industry Liaison</h6>
               </div>
               <div className="col-md">
