@@ -64,7 +64,8 @@ function App() {
      <Navbar className="navigation border-bottom" bg="light" variant="light" sticky="top" expand="lg" collapseOnSelect>
         <Container>
             <Navbar.Brand className="fw-bold">
-            <img src={logo} alt="logo" width="40px" height="40px" />{' '}
+            <img src={new URL("https://upload.wikimedia.org/wikipedia/commons/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg")}
+             alt="logo" width="35px" height="35px" />{' '}
             K-STATE ACM
             </Navbar.Brand>
             <Navbar.Toggle className="coloring" />
