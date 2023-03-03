@@ -6,6 +6,7 @@ import Photos from './components/Photos.js';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.css';
 import profile from './img/default_profile.jpeg'
+import mitch from './img/mitchell_hutchinson_med.jpg'
 import manny from './img/manny_adeniji_med.jpg'
 import sicheng from './img/sicheng_chen_med.png'
 import laura from './img/laura_legg_med.jpg'
@@ -99,7 +100,7 @@ function App() {
                 <h6 className="pt-1">President</h6>
               </div>
               <div className="col-md">
-                <img className="rounded-circle" src={profile} alt="logo" width="100px" height="100px" />
+                <img className="rounded-circle" src={mitch} alt="logo" width="100px" height="100px" />
                 <h5 className="pt-3">Mitchell Hutchinson</h5>
                 <h6 className="pt-1">Vice President</h6>
               </div>
