@@ -9,8 +9,8 @@ on:
 jobs:
   deploy-react-to-gh-pages:
     runs-on: ubuntu-latest
-      env:
-        DISABLE_ESLINT_PLUGIN: true # disable eslint plugin
+    env:
+      DISABLE_ESLINT_PLUGIN: true # disable eslint plugin
 
     steps:
       # checkout the repository content to github runner
