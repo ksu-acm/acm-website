@@ -1,5 +1,5 @@
 import './App.css';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import Members from './components/Members';
 import Sponsors from './components/Sponsors';
 import Photos from './components/Photos.js';
@@ -11,14 +11,17 @@ import profile from './img/default_profile.jpeg'
 import sicheng from './img/sicheng_chen_med.png'
 //import laura from './img/laura_legg_med.jpg'
 //import nathan from './img/nathan_lee_med.png'
-import jonah from './img/jonah_bogusch_med.png'
+//import jonah from './img/jonah_bogusch_med.png'
 import josh from './img/weese_josh_med.jpg'
 //import cody from './img/cody_murphy_med.jpg'
 import sam from './img/samuel_haynes_med.jpg'
 import taj from './img/taj_ikhlaas_med.png'
 import emma from './img/emma_lucas_med.jpg'
 import daniel from './img/daniel_chang_med.png'
-import nathan from './img/nathan_york_med.png'
+import supriya from './img/supriya_med.jpeg'
+import pedro from './img/pedro_med.jpg'
+import tim from './img/tim_med.jpeg'
+//import nathan from './img/nathan_york_med.png'
 import 'bootstrap/dist/css/bootstrap.css';
 import boeing from './img/boeing_logo.svg'
 import betsol from './img/betsol_logo.png'
@@ -38,7 +41,7 @@ import paycom from './img/paycom_logo.png'
 import tradebot from './img/tradebot_logo.svg'
 import softek from './img/softek_logo.png'
 import { Nav, Navbar, Container } from "react-bootstrap";
-import Link from 'react-scroll/modules/components/Link';
+//import Link from 'react-scroll/modules/components/Link';
 import { useRef } from 'react';
 
 
@@ -79,7 +82,7 @@ function App() {
             <Nav className="ms-auto fw-bold fs-6">
                 <Nav.Link onClick={scrollToMember}  href="#meet-us">MEET US</Nav.Link>
                 <Nav.Link onClick={scrollToSponsors} href="#sponsors">SPONSORS</Nav.Link>
-                <Nav.Link href="#events">EVENTS</Nav.Link>
+                <Nav.Link href="https://orgcentral.k-state.edu/acm/events/">EVENTS</Nav.Link>
                 <Nav.Link onClick={scrollToContact} href="#contact">CONTACT</Nav.Link>
             </Nav>
             </Navbar.Collapse>
@@ -99,18 +102,18 @@ function App() {
           <Container className="pb-4 text-white text-center">
             <div className="row mx-5">
               <div className="col-md">
-                <img className="rounded-circle" src={sam} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Samuel Haynes</h5>
+                <img className="rounded-circle" src={supriya} alt="logo" width="100px" height="100px" />
+                <h5 className="pt-3">Supriya Bolla</h5>
                 <h6 className="pt-1">President</h6>
-              </div>
-              <div className="col-md">
-                <img className="rounded-circle" src={taj} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Taj Ikhlaas</h5>
-                <h6 className="pt-1">Vice President</h6>
               </div>
               <div className="col-md">
                 <img className="rounded-circle" src={daniel} alt="logo" width="100px" height="100px" />
                 <h5 className="pt-3">Daniel Chang</h5>
+                <h6 className="pt-1">Vice President</h6>
+              </div>
+              <div className="col-md">
+                <img className="rounded-circle" src={tim} alt="logo" width="100px" height="100px" />
+                <h5 className="pt-3">Timothy Tucker</h5>
                 <h6 className="pt-1">Secretary</h6>
               </div>
               <div className="col-md">
@@ -128,13 +131,13 @@ function App() {
                 <h6 className="pt-1">Industry Liaison</h6>
               </div>
               <div className="col-md">
-                <img className="rounded-circle" src={nathan} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Nathan York</h5>
+                <img className="rounded-circle" src={pedro} alt="logo" width="100px" height="100px" />
+                <h5 className="pt-3">Pedro Alcantar-Mendez</h5>
                 <h6 className="pt-1">Event Chair</h6>
               </div>
               <div className="col-md">
-                <img className="rounded-circle" src={jonah} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Jonah Bogusch</h5>
+                <img className="rounded-circle" src={taj} alt="logo" width="100px" height="100px" />
+                <h5 className="pt-3">Taj Ikhlaas</h5>
                 <h6 className="pt-1">Senior Chair</h6>
               </div>
               <div className="col-md">
