@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.e788b598.css",
-    "main.js": "./static/js/main.37d35332.js",
+    "main.js": "./static/js/main.d8502a0b.js",
     "static/js/488.310dc71e.chunk.js": "./static/js/488.310dc71e.chunk.js",
-    "static/media/jonah_bogusch_med.png": "./static/media/jonah_bogusch_med.ddb6471cdfce26d30c99.png",
     "static/media/netsmart_logo.jpg": "./static/media/netsmart_logo.baa9b531c2d3a4a9994b.jpg",
     "static/media/daniel_chang_med.png": "./static/media/daniel_chang_med.7512c210bb52019d3ab3.png",
+    "static/media/pedro_med.jpg": "./static/media/pedro_med.181b5f2d46aa82f04852.jpg",
+    "static/media/tim_med.jpeg": "./static/media/tim_med.8981372e7a1c1d149e08.jpeg",
     "static/media/emma_lucas_med.jpg": "./static/media/emma_lucas_med.f58fcd83fe5c778a2911.jpg",
-    "static/media/nathan_york_med.png": "./static/media/nathan_york_med.79b81049c1eacb4e4f3b.png",
     "static/media/samuel_haynes_med.jpg": "./static/media/samuel_haynes_med.5aa3ee16ad5cf69f46a2.jpg",
     "static/media/taj_ikhlaas_med.png": "./static/media/taj_ikhlaas_med.b09ee402555a322318c6.png",
     "static/media/laura_legg_med.jpg": "./static/media/laura_legg_med.b773f6318e8b3bc5853e.jpg",
@@ -18,6 +18,7 @@
     "static/media/weese_josh_med.jpg": "./static/media/weese_josh_med.18982005b8e975557c88.jpg",
     "static/media/homebase_logo.svg": "./static/media/homebase_logo.109efea07f483fe8c3f1cfb509c49c4b.svg",
     "static/media/sicheng_chen_med.png": "./static/media/sicheng_chen_med.65c3d91ef78a5841ece5.png",
+    "static/media/supriya_med.jpeg": "./static/media/supriya_med.e666e0950214cabcd2f9.jpeg",
     "static/media/default_profile.jpeg": "./static/media/default_profile.4870988ee674a38c8198.jpeg",
     "static/media/jnt_logo.png": "./static/media/jnt_logo.006fea2f7d50fcdb4425.png",
     "static/media/betsol_logo.png": "./static/media/betsol_logo.ce260a70b4d145175ffd.png",
@@ -28,16 +29,15 @@
     "static/media/tradebot_logo.svg": "./static/media/tradebot_logo.f6cf982af63a94cf1e5a5dc4c30f9034.svg",
     "static/media/civicplus_logo.svg": "./static/media/civicplus_logo.d90b27946f5cd7568e2ef2b2c5081a5e.svg",
     "static/media/cboe_logo.svg": "./static/media/cboe_logo.ef9a48bec572e7e859e28886f0ceacee.svg",
-    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/google_logo.svg": "./static/media/google_logo.09f04b74cec96e039ba47846e3685a4e.svg",
     "static/media/koch_logo.svg": "./static/media/koch_logo.587240cd691dd493b83209daaf6e73d2.svg",
     "index.html": "./index.html",
     "main.e788b598.css.map": "./static/css/main.e788b598.css.map",
-    "main.37d35332.js.map": "./static/js/main.37d35332.js.map",
+    "main.d8502a0b.js.map": "./static/js/main.d8502a0b.js.map",
     "488.310dc71e.chunk.js.map": "./static/js/488.310dc71e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e788b598.css",
-    "static/js/main.37d35332.js"
+    "static/js/main.d8502a0b.js"
   ]
 }
