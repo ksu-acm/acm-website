@@ -5,6 +5,8 @@ import Sponsors from './components/Sponsors';
 import Photos from './components/Photos.js';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.css';
+//import Halo from './components/Halo.js';
+import Logo from './components/Logo.js';
 import profile from './img/default_profile.jpeg'
 //import mitch from './img/mitchell_hutchinson_med.jpg'
 //import manny from './img/manny_adeniji_med.jpg'
@@ -90,8 +92,7 @@ function App() {
         </Navbar>
     <Container fluid className="banner vh-100 d-flex justify-content-center align-items-center">
         <div className='col row fw-bold text-white text-center'>
-          <h1 className="d-inline-block row pb-3 fw-bold text-white text-center">ASSOCIATION FOR COMPUTING MACHINERY</h1>
-          <h3 className="d-inline-block row fw-bold text-white text-center">KANSAS STATE UNIVERSITY</h3>
+          <Logo />
         </div>
     </Container>
     <Container ref={membersRef} fluid className="bg_members justify-content-center align-items-center">
