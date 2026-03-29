@@ -1,17 +1,60 @@
+/* Start of navbar */
 .banner {
   background-image: url("https://acm.cs.ksu.edu/img/header.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center center;
-  margin-top: -66px;
+  border-bottom: 1px solid #53298c;
 }
-
-.bg_members {
-  background-color: #53298c;
-}
-
+/* 
 .navigation {
   z-index: -500;
+} */
+
+/* Navbar background color */
+.custom-nav {
+  background-color: #110325;
+}
+
+/* The text of the navbar, all lightgray, then hover over links will turn white */
+.navbar .nav-link {
+  color: lightgray;
+}
+
+.navbar .nav-link:hover {
+  color: white;
+}
+
+.navbar .navbar-brand {
+  color: lightgray;
+}
+
+.navbar .navbar-brand:hover {
+  color: lightgray;
+}
+
+.navbar .navbar-link-container {
+  background-color: rgba(101, 39, 189, 0.5);;
+  border: 1px solid black;
+  border-radius: 8px;
+
+  display: inline-block;
+  padding: 6px 12px;
+  margin-left: 8px;
+
+  color: white !important; /* forces text to be white when active */
+  text-decoration: none;
+}
+
+.navbar .navbar-link-container:hover {
+  color: white;
+}
+/* End of navbar */
+
+
+/* Background color for the acm members section */
+.bg_members {
+  background-color: #53298c;
 }
 
 .bg-transparent {
