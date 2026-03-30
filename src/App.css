@@ -72,3 +72,7 @@
 .top-padding {
   padding-top: 5em;
 }
+
+body { /* Vanta waves expands the x-axis a little to far */
+  overflow-x: hidden;
+}

@@ -1,3 +1,4 @@
+import '../App.css';
 import { useEffect, useRef } from 'react';
 import { Container } from 'react-bootstrap';
 import logo from '../img/KStateACM.png';
