@@ -1,0 +1,26 @@
+[
+    {
+        "image": "https://placehold.co/600x400",
+        "title": "Weekly Code & Coffee",
+        "date": "Every Wednesday",
+        "time": "6:00 PM - 8:00 PM",
+        "location": "Engineering Hall, Room 1109",
+        "description": "Join us for casual coding sessions, work on projects, get help with coursework, and enjoy free coffee and snacks."
+    },
+    {
+        "image": "https://placehold.co/600x400",
+        "title": "Spring Hackathon 2026",
+        "date": "April 12-13, 2026",
+        "time": "24 Hours",
+        "location": "K-State Student Union",
+        "description": "Our annual hackathon! Build innovative projects, compete for prizes, and network with sponsors from top tech companies."
+    },
+    {
+        "image": "https://placehold.co/600x400",
+        "title": "Tech Talk: AI & Machine Learning",
+        "date": "March 20, 2026",
+        "time": "5:30 PM - 7:00 PM",
+        "location": "Hale Library, Room 301",
+        "description": "Guest speaker from Google will discuss the latest trends in AI and machine learning, followed by a Q&A session."
+    }
+]
