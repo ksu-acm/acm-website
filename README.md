@@ -6,6 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### 'npm install'
+
+You need to make sure npm is installed on your device before you run 'npm start' otherwise you will get an error.
+
+### 'npm install list three'
+
+After you install list three you will then need to run 'npm install three@0.134.0' to be able to run the waves.
+
 ### `npm start`
 
 Runs the app in the development mode.\

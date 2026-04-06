@@ -1,6 +1,6 @@
 /* Start of navbar */
 .banner {
-  background-image: url("https://acm.cs.ksu.edu/img/header.jpg");
+  /*background-image: url("https://acm.cs.ksu.edu/img/header.jpg");*/
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center center;
@@ -75,4 +75,12 @@
 
 body { /* Vanta waves expands the x-axis a little to far */
   overflow-x: hidden;
+}
+
+.fw-bold {
+  color: white;
+}
+
+.text-muted {
+  color: white;
 }

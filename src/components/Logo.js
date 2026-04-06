@@ -50,15 +50,14 @@ function Logo() {
             {/* Logo */}
             <img
                 src={logo}
-                alt="ACM Logo"
+                alt="KStateACMLogo"
                 style={{
                     width: '500px',
                     height: '300px',
                     objectFit: 'contain',
                     //filter: 'drop-shadow(0 0 20px rgba(255,255,255,0.6))',
                     marginBottom: '20px',  // space between logo and text
-                }}
-            />
+                }}/>
 
             {/* Text content */}
             <div style={{ textAlign: 'center' }}>
