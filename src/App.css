@@ -34,7 +34,7 @@
 }
 
 .navbar .navbar-link-container {
-  background-color: rgba(101, 39, 189, 0.5);;
+  background-color: rgba(101, 39, 189, 0.5);
   border: 1px solid black;
   border-radius: 8px;
 
@@ -87,4 +87,14 @@
 
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+.club-items {
+  background-color: #110325;
+  padding: 50px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }

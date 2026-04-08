@@ -48,8 +48,8 @@ import Navigation from "../components/Navigation.js"
 
 
 function Home() {
-  const membersRef = useRef(null);
-  const sponsorRef = useRef(null);
+  // const membersRef = useRef(null);
+  // const sponsorRef = useRef(null);
 
   return (
   <div className='App'>
@@ -59,7 +59,27 @@ function Home() {
           <Logo/>
         </div>
     </Container>
-    <Container ref={membersRef} fluid className="bg_members justify-content-center align-items-center">
+  <Container className="club-items text-center my-5">
+    <div className="row">
+      <div className="col">
+        <h2>8</h2>
+        <p>Officers</p>
+      </div>
+      <div className="col">
+        <h2>92</h2>
+        <p>Members</p>
+      </div>
+      <div className="col">
+        <h2>40</h2>
+        <p>Events</p>
+      </div>
+      <div className="col">
+        <h2>6</h2>
+        <p>Emails/Newsletters</p>
+      </div>
+    </div>
+</Container>
+    {/* <Container ref={membersRef} fluid className="bg_members justify-content-center align-items-center">
         <div className='col row top-padding fw-bold text-white text-center'>
           <h3 className="d-inline-block row pb-3 text-white text-center">Members</h3>
           <h6 className="d-inline-block row pb-5 text-white text-center">Get to know the officers that make all of the ACM events possible!</h6>
@@ -112,8 +132,8 @@ function Home() {
               </div>
             </div>
           </Container>
-      </Container>
-      <Container ref={sponsorRef} fluid className="bg-light d-flex justify-content-center align-items-center">
+      </Container> */}
+      {/*<Container ref={sponsorRef} fluid className="bg-light d-flex justify-content-center align-items-center">
         <div className='col row top-padding fw-bold text-dark text-center'>
           <h3 className="d-inline-block row pb-3">Sponsors and Partners</h3>
           <Container className="pt-5 text-white text-center">
@@ -180,7 +200,7 @@ function Home() {
             </div>
           </Container>
         </div>
-      </Container>
+      </Container> */}
     <Footer />
   </div>
   );
