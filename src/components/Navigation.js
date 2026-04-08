@@ -26,5 +26,3 @@ function Navigation() {
 }
 
 export default Navigation;
-
-// No longer in use

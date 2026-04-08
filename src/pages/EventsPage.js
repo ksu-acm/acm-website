@@ -1,40 +1,31 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { Container, Card, Button } from 'react-bootstrap';
-import events from '../events.json';
 import { Link } from 'react-router-dom';
+import events from '../events.json';
 
-function Events() {
+function EventsPage() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
     const [hoveredButton, setHoveredButton] = useState(null);
 
     return (
-        <section style={{ backgroundColor: '#110325', padding: '60px 0' }}>
+        <div style={{ backgroundColor: '#110325', minHeight: '100vh', padding: '60px 0' }}>
             <Container>
-
                 {/* Header */}
                 <div className="text-center mb-5">
-                    <h2 className="fw-bold text-white" style={{ fontSize: '2.5rem' }}>Upcoming Events</h2>
-                </div>
-
-                <div className="text-center mb-4">
-                    <Link to="/events" style={{ color: '#7B00FF', textDecoration: 'none', fontSize: '0.95rem' }}>
-                        View All Events →
+                    <Link to="/" style={{ color: '#7B00FF', fontSize: '0.9rem', textDecoration: 'none' }}>
+                        ← Back to Home
                     </Link>
+                    <h2 className="fw-bold text-white mt-3" style={{ fontSize: '2.5rem' }}>
+                        All Events
+                    </h2>
                 </div>
 
-                {/* Scrollable Row */}
+                {/* Events Grid */}
                 <div
-                    className="hide-scrollbar"
                     style={{
-                        display: 'flex',
-                        overflowX: 'auto',
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
                         gap: '24px',
-                        paddingBottom: '16px',
-                        scrollSnapType: 'x mandatory',
-                        msOverflowStyle: 'none',
-                        scrollbarWidth: 'none',
-                        flex: 1,
-                        justifyContent: 'center'
                     }}
                 >
                     {events.map((event, index) => (
@@ -43,9 +34,6 @@ function Events() {
                             onMouseEnter={() => setHoveredIndex(index)}
                             onMouseLeave={() => setHoveredIndex(null)}
                             style={{
-                                minWidth: '320px',
-                                maxWidth: '320px',
-                                scrollSnapAlign: 'start',
                                 transition: 'transform 0.2s ease, box-shadow 0.2s ease',
                                 transform: hoveredIndex === index ? 'translateY(-8px)' : 'translateY(0)',
                                 boxShadow: hoveredIndex === index
@@ -74,7 +62,7 @@ function Events() {
                                         {event.date} | {event.time}
                                     </p>
 
-                                    {/* Title */}
+                                    {/* Title in purple */}
                                     <Card.Title className="fw-bold" style={{ fontSize: '1.1rem', color: '#7B00FF' }}>
                                         {event.title}
                                     </Card.Title>
@@ -108,8 +96,8 @@ function Events() {
                 </div>
 
             </Container>
-        </section>
+        </div>
     );
 }
 
-export default Events;
+export default EventsPage;
