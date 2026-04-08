@@ -20,7 +20,6 @@ function Navigation() {
                 <Nav.Link href="#meet-us">Meet Us</Nav.Link>
                 <Nav.Link href="#sponsors">Sponsors</Nav.Link>
                 <Nav.Link as={Link} to="/events">Events</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>
