@@ -13,7 +13,7 @@
 
 /* Navbar background color */
 .custom-nav {
-  background-color: #110325;
+  background-color: #3b015c;
 }
 
 /* The text of the navbar, all lightgray, then hover over links will turn white */
@@ -94,7 +94,7 @@
 }
 
 .club-items {
-  background-color: #110325;
+  background: linear-gradient(135deg, #0a0a1a 0%, #2d0060 50%, #3c1253 100%);
   padding: 50px 0;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: white;
 }
