@@ -2,29 +2,30 @@ import '../App.css';
 import logo from '../logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, Container } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
+// href="https://orgcentral.k-state.edu/acm/events/" link to orgcentral
 function Navigation() {
     return(
-        <Navbar className="navigation" bg="light" variant="light" sticky="top" expand="lg" collapseOnSelect>
+        <Navbar className="navigation custom-nav" sticky="top" expand="lg" collapseOnSelect>
         <Container>
             <Navbar.Brand className="fw-bold">
-            <img src={logo} alt="logo" width="40px" height="40px" />{' '}
+            <img src={new URL("https://upload.wikimedia.org/wikipedia/commons/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg")}
+             alt="logo" width="35px" height="35px" />{' '}
             K-STATE ACM
             </Navbar.Brand>
             <Navbar.Toggle className="coloring" />
             <Navbar.Collapse>
-            <Nav className="ms-auto fw-bold fs-6">
-                <Nav.Link href="#meet-us">MEET US</Nav.Link>
-                <Nav.Link href="#sponsors">SPONSORS</Nav.Link>
-                <Nav.Link href="#events">EVENTS</Nav.Link>
-                <Nav.Link href="#contact">CONTACT</Nav.Link>
-            </Nav>
+                <Nav className="ms-auto fw-bold fs-6">
+                    <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
+                    <Nav.Link as={NavLink} to="/about">About</Nav.Link>
+                    <Nav.Link as={NavLink} to="/events">Events</Nav.Link>
+                    <Nav.Link as={NavLink} to="/join">Join Us</Nav.Link>
+                </Nav>
             </Navbar.Collapse>
         </Container>
-        </Navbar>
+      </Navbar>
     );
 }
 
 export default Navigation;
-
-// No longer in use

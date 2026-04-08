@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 You need to make sure npm is installed on your device before you run 'npm start' otherwise you will get an error.
 
-### 'npm install list three'
+### 'npm install vanta three'
 
 After you install list three you will then need to run 'npm install three@0.134.0' to be able to run the waves.
 
