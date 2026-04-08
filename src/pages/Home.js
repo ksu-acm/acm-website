@@ -59,8 +59,8 @@ function Home() {
           <Logo/>
         </div>
     </Container>
-  <Container className="club-items text-center my-5">
-    <div className="row">
+  <div className="club-items text-center">
+    <div className="row mx-0">
       <div className="col">
         <h2>8</h2>
         <p>Officers</p>
@@ -78,7 +78,7 @@ function Home() {
         <p>Emails/Newsletters</p>
       </div>
     </div>
-</Container>
+</div>
     {/* <Container ref={membersRef} fluid className="bg_members justify-content-center align-items-center">
         <div className='col row top-padding fw-bold text-white text-center'>
           <h3 className="d-inline-block row pb-3 text-white text-center">Members</h3>
