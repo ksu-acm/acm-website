@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { Container, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import events from '../events.json';
+import Navigation from "../components/Navigation.js"
 
 function EventsPage() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
     const [hoveredButton, setHoveredButton] = useState(null);
 
     return (
-        <div style={{ backgroundColor: '#110325', minHeight: '100vh', padding: '60px 0' }}>
+        <div style={{ backgroundColor: '#110325', minHeight: '100vh', padding: '0px' }}>
+            <Navigation/>
             <Container>
                 {/* Header */}
                 <div className="text-center mb-5">

@@ -43,70 +43,18 @@ import paycom from '../img/paycom_logo.png'
 import tradebot from '../img/tradebot_logo.svg'
 import softek from '../img/softek_logo.png'
 import { Nav, Navbar, Container } from "react-bootstrap";
-import { Link } from 'react-router-dom'; // Connects links to new pages for new pages
 import { useRef, useState } from 'react';
+import Navigation from "../components/Navigation.js"
 
 
 
 function Home() {
   const membersRef = useRef(null);
   const sponsorRef = useRef(null);
-  const [active, setActive] = useState("about"); // initially sets about to be active
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-    setActive("about");
-  }
-
-  const scrollToMember = () => {
-    window.scrollTo({
-      top: membersRef.current.offsetTop - 58,
-      behavior: "smooth"
-    });
-    setActive("members");
-  }
-
-    const scrollToSponsors = () => {
-    window.scrollTo({
-      top: sponsorRef.current.offsetTop - 58,
-      behavior: "smooth"
-    });
-    setActive("sponsors");
-  }
-  // if we want to change events to be like the mock page, then add another const here
-
-    const scrollToContact = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth"
-    });
-    setActive("contacts");
-  }
 
   return (
   <div className='App'>
-     <Navbar className="navigation custom-nav" sticky="top" expand="lg" collapseOnSelect>
-        <Container>
-            <Navbar.Brand className="fw-bold">
-            <img src={new URL("https://upload.wikimedia.org/wikipedia/commons/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg")}
-             alt="logo" width="35px" height="35px" />{' '}
-            K-STATE ACM
-            </Navbar.Brand>
-            <Navbar.Toggle className="coloring" />
-            <Navbar.Collapse>
-            <Nav className="ms-auto fw-bold fs-6">
-                <Nav.Link className={active === "about" ? "navbar-link-container" : ""} onClick={scrollToTop}  href="#about">About</Nav.Link>
-                <Nav.Link className={active === "members" ? "navbar-link-container" : ""} onClick={scrollToMember}  href="#meet-us">Meet Us</Nav.Link>
-                <Nav.Link className={active === "sponsors" ? "navbar-link-container" : ""} onClick={scrollToSponsors} href="#sponsors">Sponsors</Nav.Link>
-                <Nav.Link as={Link} to="/events">Events</Nav.Link>
-                <Nav.Link className={active === "contacts" ? "navbar-link-container" : ""} onClick={scrollToContact} href="#contact">Contact</Nav.Link>
-            </Nav>
-            </Navbar.Collapse>
-        </Container>
-        </Navbar>
+    <Navigation/>
     <Container fluid className="banner vh-100 d-flex justify-content-center align-items-center">
         <div className='col row fw-bold text-white text-center'>
           <Logo/>
