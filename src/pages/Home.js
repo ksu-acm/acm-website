@@ -5,7 +5,6 @@ import Sponsors from '../components/Sponsors';
 import Photos from '../components/Photos.js';
 import Footer from '../components/Footer';
 import 'bootstrap/dist/css/bootstrap.css';
-import Events from '../components/Events.js';
 import Logo from '../components/Logo.js';
 import profile from '../img/default_profile.jpeg'
 //import mitch from '../img/mitchell_hutchinson_med.jpg'
@@ -58,11 +57,6 @@ function Home() {
     <Container fluid className="banner vh-100 d-flex justify-content-center align-items-center">
         <div className='col row fw-bold text-white text-center'>
           <Logo/>
-        </div>
-    </Container>
-    <Container fluid className="events-info-cards">
-        <div>
-          <Events/>
         </div>
     </Container>
     <Container ref={membersRef} fluid className="bg_members justify-content-center align-items-center">

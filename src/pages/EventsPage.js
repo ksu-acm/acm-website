@@ -3,6 +3,7 @@ import { Container, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import events from '../events.json';
 import Navigation from "../components/Navigation.js"
+import Footer from '../components/Footer';
 
 function EventsPage() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -11,12 +12,31 @@ function EventsPage() {
     return (
         <div style={{ backgroundColor: '#110325', minHeight: '100vh', padding: '0px' }}>
             <Navigation/>
+            {/* Header */}
+            <div style={{
+                background: 'linear-gradient(135deg, #0a0a1a 0%, #2d0060 50%, #6d2f8f 100%)',
+                padding: '100px 0 80px 0',
+                textAlign: 'center',
+                marginBottom: '60px',
+            }}>
+                <Container>
+                    <h1 className="fw-bold text-white" style={{ fontSize: '3.5rem', marginBottom: '20px'}}>
+                        Upcoming Events
+                    </h1>
+                    <p style={{
+                        color: 'rgba(255,255,255,0.8)',
+                        fontSize: '1.1rem',
+                        maxWidth: '600px',
+                        margin: '0 auto',
+                    }}>
+                        Join us for exciting events, workshops, and networking opportunities throughout the semester.
+                    </p>
+                </Container>
+            </div>
+
             <Container>
-                {/* Header */}
+                {/* Title */}
                 <div className="text-center mb-5">
-                    <Link to="/" style={{ color: '#7B00FF', fontSize: '0.9rem', textDecoration: 'none' }}>
-                        ← Back to Home
-                    </Link>
                     <h2 className="fw-bold text-white mt-3" style={{ fontSize: '2.5rem' }}>
                         All Events
                     </h2>
@@ -28,6 +48,7 @@ function EventsPage() {
                         display: 'grid',
                         gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
                         gap: '24px',
+                        paddingBottom: '80px'
                     }}
                 >
                     {events.map((event, index) => (
@@ -44,7 +65,7 @@ function EventsPage() {
                                 borderRadius: '16px',
                             }}
                         >
-                            <Card className="h-100 border-0 rounded-4" style={{ overflow: 'hidden' }}>
+                            <Card className="h-100 border-0 rounded-4" style={{ overflow: 'hidden'}}>
 
                                 {/* Event Poster */}
                                 <Card.Img
@@ -98,6 +119,7 @@ function EventsPage() {
                 </div>
 
             </Container>
+            <Footer/>
         </div>
     );
 }
