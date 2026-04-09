@@ -79,9 +79,19 @@ function Home() {
       </div>
     </div>
 </div>
-<div className="offer-items text-center">
+<div className="offer-items">
   <h1>What We Offer</h1>
   <p>Join a thriving community of students passionate about technology and innovation</p>
+  <div className="row">
+    <div className="offer-container col">
+      <h4>Networking Events</h4>
+      <p>Connect with fellow students, alumni, and tech companies to build lasting professional relationships.</p>
+    </div>
+    <div className="offer-container col">
+      <h4>Hackathons</h4>
+      <p>Participate in exciting coding competitions and hackathons to challenge yourself and win prizes.</p>
+    </div>
+  </div>
 </div>
     {/* <Container ref={membersRef} fluid className="bg_members justify-content-center align-items-center">
         <div className='col row top-padding fw-bold text-white text-center'>
