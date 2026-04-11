@@ -1,3 +1,4 @@
+/*
 import '../App.css';
 import boeing from '../img/boeing_logo.svg'
 import betsol from '../img/betsol_logo.png'
@@ -94,3 +95,4 @@ function Sponsors() {
 }
 
 export default Sponsors;
+*/

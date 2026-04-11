@@ -1,0 +1,68 @@
+[
+    {
+        "name" : "Koch Industries",
+        "logo" : "/LogoImgs/koch_logo.svg"
+
+    },
+    {
+        "name" : "netsmart",
+        "logo" : "/LogoImgs/netsmart_logo.jpg"
+    },
+    {
+        "name" : "paycom",
+        "logo" : "/LogoImgs/paycom_logo.png"
+    },
+    {
+        "name" : "google",
+        "logo" : "/LogoImgs/google_logo.svg"
+    },
+    {
+        "name" : "betsol",
+        "logo" : "/LogoImgs/betsol_logo.png"
+    },
+    {
+        "name" : "boeing",
+        "logo" : "/LogoImgs/boeing_logo.svg"
+    },
+    {
+        "name" : "bugcrowd",
+        "logo" : "/LogoImgs/bugcrowd_logo.svg"
+    },
+    {
+        "name" : "cboe",
+        "logo" : "/LogoImgs/cboe_logo.svg"
+    },
+    {
+        "name" : "cerner",
+        "logo" : "/LogoImgs/cerner_logo.png"
+    },
+    {
+        "name" : "civicplus",
+        "logo" : "/LogoImgs/civicplus_logo.svg"
+    },
+    {
+        "name" : "conoco",
+        "logo" : "/LogoImgs/conoco_logo.png"
+    },
+    {
+        "name" : "garmin",
+        "logo" : "/LogoImgs/garmin_logo.svg"
+    },
+    {
+        "name" : "homebase",
+        "logo" : "/LogoImgs/homebase_logo.svg"
+    },
+    {
+        "name" : "jnt",
+        "logo" : "/LogoImgs/jnt_logo.png"
+    },
+    {
+        "name" : "softek",
+        "logo" : "/LogoImgs/softek_logo.png"
+    },
+    {
+        "name" : "tradebot",
+        "logo" : "/LogoImgs/tradebot_logo.svg"
+    }
+
+]

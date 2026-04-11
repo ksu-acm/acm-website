@@ -16,7 +16,7 @@ function EventsPage() {
             <div style={{
                 background: 'linear-gradient(135deg, #0a0a1a 0%, #2d0060 50%, #6d2f8f 100%)',
                 padding: '100px 0 80px 0',
-                textAlign: 'center',
+                textAlign: 'center',    
                 marginBottom: '60px',
             }}>
                 <Container>
@@ -92,7 +92,7 @@ function EventsPage() {
 
                                     {/* Location */}
                                     <p style={{ fontSize: '0.85rem', color: '#555', marginBottom: '12px' }}>
-                                        📍 {event.location}
+                                        {event.location}
                                     </p>
 
                                     {/* Register Button */}

@@ -1,5 +1,5 @@
 import '../App.css';
-import logo from '../logo.svg';
+//import logo from '../logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Link } from 'react-router-dom';
@@ -18,7 +18,7 @@ function Navigation() {
             <Nav className="ms-auto fw-bold fs-6">
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                 <Nav.Link href="#meet-us">Meet Us</Nav.Link>
-                <Nav.Link href="#sponsors">Sponsors</Nav.Link>
+                <Nav.Link as={Link} to="/sponsor">Sponsors</Nav.Link>
                 <Nav.Link as={Link} to="/events">Events</Nav.Link>
             </Nav>
             </Navbar.Collapse>
