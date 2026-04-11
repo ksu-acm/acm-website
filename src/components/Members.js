@@ -1,4 +1,4 @@
-import '../App.css';
+/*import '../App.css';
 import profile from '../img/default_profile.jpeg'
 import sicheng from '../img/sicheng_chen_med.png'
 import laura from '../img/laura_legg_med.jpg'
@@ -65,4 +65,4 @@ function Members() {
     );
 }
 
-export default Members;
+export default Members;*/

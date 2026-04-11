@@ -1,0 +1,37 @@
+[
+    {
+        "Title" : "President",
+        "Name" : "Tim Tucker",
+        "Photo" : "/MemberImgs/tim_med.jpeg"
+    },
+    {
+        "Title": "Vice-President",
+        "Name" : "Eder Martinez",
+        "Photo" : "/MemberImgs/eder_martinez.jpg"
+    },
+    {
+        "Title" : "Senior Chair",
+        "Name" : "Supriya Bolla",
+        "Photo" : "/MemberImgs/supriya_med.jpeg"
+    },
+    {
+        "Title" : "Treasurer",
+        "Name" : "Sergio Espino" ,
+        "Photo" : "/MemberImgs/default_profile.jpeg"
+    },
+    {
+        "Title" : "Industry Liaison",
+        "Name" : "Pamela Ngankem",
+        "Photo" : "/MemberImgs/Pamela_Ngankem.jpeg"
+    },
+    {
+        "Title" : "Events Chair",
+        "Name" : "Manny Adeniji",
+        "Photo" : "/MemberImgs/manny_adeniji_med.jpg"
+    },
+    {
+        "Title" : "Advisor",
+        "Name" : "Josh Weese",
+        "Photo" : "/MemberImgs/weese_josh_med.jpg"
+    }
+]
