@@ -4,12 +4,12 @@ import { Container } from "react-bootstrap";
 
 function Footer() {
     return(
-        <Container fluid className="bg-dark justify-content-center">
+        <Container fluid className="custom-container-height bg-dark justify-content-center">
             <div className='row mx-auto top-padding fw-bold text-white text-center'>
                 <h3 className="d-inline-block pb-4 text-white text-center">Let's Get In Touch!</h3>
                 <h6 className="d-inline-block lh-base pb-5 text-white text-center">Ready to get involved, have an event idea you'd like to see, or want to be a partner? Awesome! <br></br> Send us an email or reach out on social media and we'll get back with you soon.</h6>
             </div>
-            <Container className='pt-3 bottom-padding d-flex fw-bold text-white text-center'>
+            <Container className='d-flex fw-bold text-white text-center'>
                 <div className="row mx-auto">
                     <div className="col">
                         <a className="text-decoration-none" href="mailto:ksuacm@ksu.edu">

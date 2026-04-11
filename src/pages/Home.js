@@ -85,136 +85,16 @@ function Home() {
   <div className="row">
     <div className="offer-container col">
       <h4>Networking Events</h4>
+        {/* Add an image about networking */}
       <p>Connect with fellow students, alumni, and tech companies to build lasting professional relationships.</p>
     </div>
     <div className="offer-container col">
       <h4>Hackathons</h4>
+        {/* Add an image about hackathons */}
       <p>Participate in exciting coding competitions and hackathons to challenge yourself and win prizes.</p>
     </div>
   </div>
 </div>
-    {/* <Container ref={membersRef} fluid className="bg_members justify-content-center align-items-center">
-        <div className='col row top-padding fw-bold text-white text-center'>
-          <h3 className="d-inline-block row pb-3 text-white text-center">Members</h3>
-          <h6 className="d-inline-block row pb-5 text-white text-center">Get to know the officers that make all of the ACM events possible!</h6>
-        </div>
-          <Container className="pb-4 text-white text-center">
-            <div className="row mx-5">
-              <div className="col-md">
-                <img className="rounded-circle" src={supriya} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Supriya Bolla</h5>
-                <h6 className="pt-1">President</h6>
-              </div>
-              <div className="col-md">
-                <img className="rounded-circle" src={daniel} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Daniel Chang</h5>
-                <h6 className="pt-1">Vice President</h6>
-              </div>
-              <div className="col-md">
-                <img className="rounded-circle" src={tim} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Timothy Tucker</h5>
-                <h6 className="pt-1">Secretary</h6>
-              </div>
-              <div className="col-md">
-                <img className="rounded-circle" src={sicheng} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Sicheng Chen</h5>
-                <h6 className="pt-1">Treasurer</h6>
-              </div>
-            </div>
-          </Container>
-          <Container className="bottom-padding text-white text-center">
-            <div className="row mx-5">
-              <div className="col-md">
-                <img className="rounded-circle" src={emma} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Emma Lucas</h5>
-                <h6 className="pt-1">Industry Liaison</h6>
-              </div>
-              <div className="col-md">
-                <img className="rounded-circle" src={pedro} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Pedro Alcantar-Mendez</h5>
-                <h6 className="pt-1">Event Chair</h6>
-              </div>
-              <div className="col-md">
-                <img className="rounded-circle" src={taj} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Taj Ikhlaas</h5>
-                <h6 className="pt-1">Senior Chair</h6>
-              </div>
-              <div className="col-md">
-                <img className="rounded-circle" src={josh} alt="logo" width="100px" height="100px" />
-                <h5 className="pt-3">Dr. Joshua Weese</h5>
-                <h6 className="pt-1">Advisor</h6>
-              </div>
-            </div>
-          </Container>
-      </Container> */}
-      {/*<Container ref={sponsorRef} fluid className="bg-light d-flex justify-content-center align-items-center">
-        <div className='col row top-padding fw-bold text-dark text-center'>
-          <h3 className="d-inline-block row pb-3">Sponsors and Partners</h3>
-          <Container className="pt-5 text-white text-center">
-            <div className="row mx-5">
-              <a className="col-md" href="https://www.betsol.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${betsol})`, backgroundSize: '170px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.boeing.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${boeing})`, backgroundSize: '200px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.bugcrowd.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${bugcrowd})`, backgroundSize: '170px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.cboe.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${cboe})`, backgroundSize: '100px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.cerner.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${cerner})`, backgroundSize: '170px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.civicplus.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${civic})`, backgroundSize: '125px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-            </div>
-          </Container>
-          <Container className="text-white text-center">
-            <div className="row mx-5">
-              <a className="col-md" href="https://www.conocophillips.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${conoco})`, backgroundSize: '200px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.garmin.com/en-US/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${garmin})`, backgroundSize: '170px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://about.google/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${google})`, backgroundSize: '150px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://homebase.ai/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${homebase})`, backgroundSize: '200px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.jntcompany.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${jnt})`, backgroundSize: '65px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.kochind.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${koch})`, backgroundSize: '150px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-            </div>
-          </Container>
-          <Container className="bottom-padding text-white text-center">
-            <div className="row mx-5">
-              <a className="col-md" href="https://ksuesports.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${esports})`, backgroundSize: '100px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.ntst.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${netsmart})`, backgroundSize: '215px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.paycom.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${paycom})`, backgroundSize: '200px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.tradebot.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${tradebot})`, backgroundSize: '170px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-              <a className="col-md" href="https://www.softekinc.com/" rel="noreferrer" target="_blank" style={{height: "100px"}}>
-                <div style={{backgroundImage: `url(${softek})`, backgroundSize: '200px', backgroundPosition: "center center", backgroundRepeat: "no-repeat", height: "100%"}}></div>
-              </a>
-            </div>
-          </Container>
-        </div>
-      </Container> */}
     <Footer />
   </div>
   );
