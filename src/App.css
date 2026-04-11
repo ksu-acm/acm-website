@@ -89,12 +89,44 @@
   display: none;
 }
 
+.custom-container-height {
+  height: 40vh !important;
+}
+
+
+/* Some computers would have an overflow horizontally. */
 .App {
   overflow-x: hidden;
 }
 
+/* Club stats such as officers, members, etc. */
 .club-items {
   background: linear-gradient(135deg, #0a0a1a 0%, #2d0060 50%, #3c1253 100%);
   padding: 50px 0;
   color: white;
 }
+
+
+/* What We Offer section */
+.offer-items {
+  background-color: #110325;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+  height: 80vh;
+}
+
+.offer-items .row {
+  justify-content: center;
+  gap: 15%;
+}
+
+.offer-container {
+  background: linear-gradient(135deg, #0a0a1a 0%, #2d0060 50%, #3c1253 100%);
+  border: solid black 1px;
+  height: 20rem;
+  max-width: 30rem !important;
+  border-radius: 5px;
+  padding-top: 15px;
+}
+/* End of What We Offer */
