@@ -1,7 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { Container, Card, Button } from 'react-bootstrap';
 import events from '../events.json';
-import { Link } from 'react-router-dom';
 
 function Events() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -14,12 +13,6 @@ function Events() {
                 {/* Header */}
                 <div className="text-center mb-5">
                     <h2 className="fw-bold text-white" style={{ fontSize: '2.5rem' }}>Upcoming Events</h2>
-                </div>
-
-                <div className="text-center mb-4">
-                    <Link to="/events" style={{ color: '#7B00FF', textDecoration: 'none', fontSize: '0.95rem' }}>
-                        View All Events →
-                    </Link>
                 </div>
 
                 {/* Scrollable Row */}
@@ -81,7 +74,7 @@ function Events() {
 
                                     {/* Location */}
                                     <p style={{ fontSize: '0.85rem', color: '#555', marginBottom: '12px' }}>
-                                        📍 {event.location}
+                                        {event.location}
                                     </p>
 
                                     {/* Register Button */}

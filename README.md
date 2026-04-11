@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Important Steps
+In order to get the website running, make sure you install Vanta by running "npm install vanta three", followed by "npm install three@0.134.0".
+
+## Format for events.json
+When adding events, please follow the bottom template:
+{
+    "image": "/EventImgs/Your Image Name.png",
+    "title": "Title here",
+    "date": "Month Day, Year",
+    "time": "0:00 AM/PM",
+    "location": "Building Name RM 0000",
+    "description": "Event Description here"
+}
+
 ## Available Scripts
 
 In the project directory, you can run:
