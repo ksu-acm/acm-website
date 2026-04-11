@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 function EventsPage() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
     const [hoveredButton, setHoveredButton] = useState(null);
-
+    const hasEvents = events && events.length > 0;
     return (
         <div style={{ backgroundColor: '#110325', minHeight: '100vh', padding: '0px' }}>
             <Navigation/>
@@ -43,79 +43,68 @@ function EventsPage() {
                 </div>
 
                 {/* Events Grid */}
-                <div
-                    style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-                        gap: '24px',
-                        paddingBottom: '80px'
-                    }}
-                >
-                    {events.map((event, index) => (
-                        <div
-                            key={index}
-                            onMouseEnter={() => setHoveredIndex(index)}
-                            onMouseLeave={() => setHoveredIndex(null)}
+                <div style={{display: 'grid',gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',gap: '24px',paddingBottom: '80px'}}>
+                    {hasEvents ? (events.map((event, index) => (
+                        <div key={index} onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)}
                             style={{
-                                transition: 'transform 0.2s ease, box-shadow 0.2s ease',
-                                transform: hoveredIndex === index ? 'translateY(-8px)' : 'translateY(0)',
-                                boxShadow: hoveredIndex === index
-                                    ? '0 16px 40px rgba(123, 0, 255, 0.4)'
-                                    : 'none',
-                                borderRadius: '16px',
+                            transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                            transform: hoveredIndex === index ? 'translateY(-8px)' : 'translateY(0)',
+                            boxShadow:
+                                hoveredIndex === index
+                                ? '0 16px 40px rgba(123, 0, 255, 0.4)'
+                                : 'none',
+                            borderRadius: '16px',
                             }}
                         >
-                            <Card className="h-100 border-0 rounded-4" style={{ overflow: 'hidden'}}>
+                            <Card className="h-100 border-0 rounded-4" style={{ overflow: 'hidden' }}>
+                            <Card.Img
+                                variant="top"
+                                src={event.image}
+                                style={{
+                                height: '220px',
+                                objectFit: 'cover',
+                                objectPosition: 'top',
+                                }}
+                            />
 
-                                {/* Event Poster */}
-                                <Card.Img
-                                    variant="top"
-                                    src={event.image}
-                                    style={{
-                                        height: '220px',
-                                        objectFit: 'cover',
-                                        objectPosition: 'top',
-                                    }}
-                                />
-
-                                <Card.Body className="d-flex flex-column p-3" style={{ backgroundColor: '#ffffff' }}>
-
-                                    {/* Date and Time */}
+                                <Card.Body className="d-flex flex-column p-3" style={{ backgroundColor: '#ffffff' }} >
                                     <p style={{ fontSize: '0.9rem', color: '#555', marginBottom: '4px' }}>
                                         {event.date} | {event.time}
                                     </p>
 
-                                    {/* Title in purple */}
-                                    <Card.Title className="fw-bold" style={{ fontSize: '1.1rem', color: '#7B00FF' }}>
+                                    <Card.Title className="fw-bold" style={{ fontSize: '1.1rem', color: '#7B00FF' }} >
                                         {event.title}
                                     </Card.Title>
 
-                                    {/* Location */}
                                     <p style={{ fontSize: '0.85rem', color: '#555', marginBottom: '12px' }}>
                                         {event.location}
                                     </p>
 
-                                    {/* Register Button */}
                                     <Button
-                                        className="mt-auto w-100 fw-bold"
-                                        onMouseEnter={() => setHoveredButton(index)}
-                                        onMouseLeave={() => setHoveredButton(null)}
-                                        style={{
-                                            backgroundColor: hoveredButton === index ? '#512888' : '#7B00FF',
-                                            border: 'none',
-                                            borderRadius: '8px',
-                                            padding: '12px',
-                                            transition: 'background-color 0.2s ease',
-                                            cursor: 'pointer',
-                                        }}
+                                    className="mt-auto w-100 fw-bold"
+                                    onMouseEnter={() => setHoveredButton(index)}
+                                    onMouseLeave={() => setHoveredButton(null)}
+                                    style={{
+                                        backgroundColor:
+                                        hoveredButton === index ? '#512888' : '#7B00FF',
+                                        border: 'none',
+                                        borderRadius: '8px',
+                                        padding: '12px',
+                                        transition: 'background-color 0.2s ease',
+                                        cursor: 'pointer',
+                                    }}
                                     >
                                         Register
                                     </Button>
-
                                 </Card.Body>
                             </Card>
                         </div>
-                    ))}
+                        ))
+                    ) : (
+                        <h1 style={{ color: "white", textAlign: "center", gridColumn: "1 / -1" }}>
+                        No upcoming events!
+                        </h1>
+                    )}
                 </div>
 
             </Container>

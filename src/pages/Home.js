@@ -6,6 +6,7 @@ import Photos from '../components/Photos.js';
 import Footer from '../components/Footer';
 import 'bootstrap/dist/css/bootstrap.css';
 import Logo from '../components/Logo.js';
+import hack from '../img/hack_picture.jpeg'
 //import profile from '../img/default_profile.jpeg'
 //import mitch from '../img/mitchell_hutchinson_med.jpg'
 //import manny from '../img/manny_adeniji_med.jpg'
@@ -90,8 +91,9 @@ function Home() {
     </div>
     <div className="offer-container col">
       <h4>Hackathons</h4>
-        {/* Add an image about hackathons */}
       <p>Participate in exciting coding competitions and hackathons to challenge yourself and win prizes.</p>
+      <img src={hack} style={{maxWidth: "100%",maxHeight: "60%",objectFit: "contain", margin:"10px"}}/>
+      
     </div>
   </div>
 </div>
