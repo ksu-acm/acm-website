@@ -18,7 +18,7 @@ function Navigation() {
             <Nav className="ms-auto fw-bold fs-6">
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
                 <Nav.Link href="/meet">Meet Us</Nav.Link>
-                <Nav.Link href="/sponsors">Sponsors</Nav.Link>
+                <Nav.Link href="/sponsor">Sponsors</Nav.Link>
                 <Nav.Link as={Link} to="/events">Events</Nav.Link>
             </Nav>
             </Navbar.Collapse>
