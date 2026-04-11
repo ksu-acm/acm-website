@@ -27,7 +27,12 @@
     {
         "Title" : "Events Chair",
         "Name" : "Manny Adeniji",
-        "Photo" : "/MemberImgs/manny_adeniji_med.jpg"
+        "Photo" : "/MemberImgs/Manny_Adeniji.jpg"
+    },
+    {
+        "Title" : "Secretary",
+        "Name" : "Aaron Weber",
+        "Photo" : "/MemberImgs/Arron_Weber.jpeg"
     },
     {
         "Title" : "Advisor",
