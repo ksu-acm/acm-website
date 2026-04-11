@@ -1,20 +1,19 @@
 [
     {
-        "name" : "Koch Industries",
-        "logo" : "/LogoImgs/koch_logo.svg"
-
+        "name": "google",
+        "logo": "/LogoImgs/google_logo.svg"
     },
     {
         "name" : "netsmart",
-        "logo" : "/LogoImgs/netsmart_logo.jpg"
+        "logo" : "/LogoImgs/netsmart-logo.png"
     },
     {
         "name" : "paycom",
         "logo" : "/LogoImgs/paycom_logo.png"
     },
     {
-        "name" : "google",
-        "logo" : "/LogoImgs/google_logo.svg"
+        "name": "Koch Industries",
+        "logo": "/LogoImgs/koch_logo.svg"
     },
     {
         "name" : "betsol",
@@ -25,8 +24,8 @@
         "logo" : "/LogoImgs/boeing_logo.svg"
     },
     {
-        "name" : "bugcrowd",
-        "logo" : "/LogoImgs/bugcrowd_logo.svg"
+        "name": "jnt",
+        "logo": "/LogoImgs/jnt_logo.png"
     },
     {
         "name" : "cboe",
@@ -53,8 +52,8 @@
         "logo" : "/LogoImgs/homebase_logo.svg"
     },
     {
-        "name" : "jnt",
-        "logo" : "/LogoImgs/jnt_logo.png"
+        "name": "bugcrowd",
+        "logo": "/LogoImgs/bugcrowd_logo.svg"
     },
     {
         "name" : "softek",
