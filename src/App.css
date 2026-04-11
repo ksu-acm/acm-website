@@ -124,7 +124,7 @@
 .offer-container {
   background: linear-gradient(135deg, #0a0a1a 0%, #2d0060 50%, #3c1253 100%);
   border: solid black 1px;
-  height: 20rem;
+  height: 30rem;
   max-width: 30rem !important;
   border-radius: 5px;
   padding-top: 15px;
