@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/acm-website/static/css/main.4c6bb93c.css",
-    "main.js": "/acm-website/static/js/main.b241ea02.js",
+    "main.js": "/acm-website/static/js/main.ef5c2ceb.js",
     "static/js/981.944937fd.chunk.js": "/acm-website/static/js/981.944937fd.chunk.js",
     "static/js/271.696e3ece.chunk.js": "/acm-website/static/js/271.696e3ece.chunk.js",
     "static/js/488.e4accf22.chunk.js": "/acm-website/static/js/488.e4accf22.chunk.js",
@@ -10,13 +10,13 @@
     "static/media/KStateACM.png": "/acm-website/static/media/KStateACM.d086dc2667543d1cac19.png",
     "index.html": "/acm-website/index.html",
     "main.4c6bb93c.css.map": "/acm-website/static/css/main.4c6bb93c.css.map",
-    "main.b241ea02.js.map": "/acm-website/static/js/main.b241ea02.js.map",
+    "main.ef5c2ceb.js.map": "/acm-website/static/js/main.ef5c2ceb.js.map",
     "981.944937fd.chunk.js.map": "/acm-website/static/js/981.944937fd.chunk.js.map",
     "271.696e3ece.chunk.js.map": "/acm-website/static/js/271.696e3ece.chunk.js.map",
     "488.e4accf22.chunk.js.map": "/acm-website/static/js/488.e4accf22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c6bb93c.css",
-    "static/js/main.b241ea02.js"
+    "static/js/main.ef5c2ceb.js"
   ]
 }
