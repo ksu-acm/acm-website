@@ -2,7 +2,7 @@
   "name": "acm-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://acm.cs.ksu.edu",
+  "homepage": "https://ksu-acm.github.io/acm-website",
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^15.0.2",
