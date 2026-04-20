@@ -1,67 +1,67 @@
 [
     {
         "name": "google",
-        "logo": "/LogoImgs/google_logo.svg"
+        "logo": "/acm-website/LogoImgs/google_logo.svg"
     },
     {
         "name" : "netsmart",
-        "logo" : "/LogoImgs/netsmart-logo.png"
+        "logo" : "/acm-website/LogoImgs/netsmart-logo.png"
     },
     {
         "name" : "paycom",
-        "logo" : "/LogoImgs/paycom_logo.png"
+        "logo" : "/acm-website/LogoImgs/paycom_logo.png"
     },
     {
         "name": "Koch Industries",
-        "logo": "/LogoImgs/koch_logo.svg"
+        "logo": "/acm-website/LogoImgs/koch_logo.svg"
     },
     {
         "name" : "betsol",
-        "logo" : "/LogoImgs/betsol_logo.png"
+        "logo" : "/acm-website/LogoImgs/betsol_logo.png"
     },
     {
         "name" : "boeing",
-        "logo" : "/LogoImgs/boeing_logo.svg"
+        "logo" : "/acm-website/LogoImgs/boeing_logo.svg"
     },
     {
         "name": "jnt",
-        "logo": "/LogoImgs/jnt_logo.png"
+        "logo": "/acm-website/LogoImgs/jnt_logo.png"
     },
     {
         "name" : "cboe",
-        "logo" : "/LogoImgs/cboe_logo.svg"
+        "logo" : "/acm-website/LogoImgs/cboe_logo.svg"
     },
     {
         "name" : "cerner",
-        "logo" : "/LogoImgs/cerner_logo.png"
+        "logo" : "/acm-website/LogoImgs/cerner_logo.png"
     },
     {
         "name" : "civicplus",
-        "logo" : "/LogoImgs/civicplus_logo.svg"
+        "logo" : "/acm-website/LogoImgs/civicplus_logo.svg"
     },
     {
         "name" : "conoco",
-        "logo" : "/LogoImgs/conoco_logo.png"
+        "logo" : "/acm-website/LogoImgs/conoco_logo.png"
     },
     {
         "name" : "garmin",
-        "logo" : "/LogoImgs/garmin_logo.svg"
+        "logo" : "/acm-website/LogoImgs/garmin_logo.svg"
     },
     {
         "name" : "homebase",
-        "logo" : "/LogoImgs/homebase_logo.svg"
+        "logo" : "/acm-website/LogoImgs/homebase_logo.svg"
     },
     {
         "name": "bugcrowd",
-        "logo": "/LogoImgs/bugcrowd_logo.svg"
+        "logo": "/acm-website/LogoImgs/bugcrowd_logo.svg"
     },
     {
         "name" : "softek",
-        "logo" : "/LogoImgs/softek_logo.png"
+        "logo" : "/acm-website/LogoImgs/softek_logo.png"
     },
     {
         "name" : "tradebot",
-        "logo" : "/LogoImgs/tradebot_logo.svg"
+        "logo" : "/acm-website/LogoImgs/tradebot_logo.svg"
     }
 
 ]

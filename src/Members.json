@@ -7,36 +7,36 @@
     {
         "Title": "Vice-President",
         "Name" : "Eder Martinez",
-        "Photo" : "/MemberImgs/eder_martinez.jpg"
+        "Photo" : "/acm-website/MemberImgs/eder_martinez.jpg"
     },
     {
         "Title" : "Senior Chair",
         "Name" : "Supriya Bolla",
-        "Photo" : "/MemberImgs/supriya_med.jpeg"
+        "Photo" : "/acm-website/MemberImgs/supriya_med.jpeg"
     },
     {
         "Title" : "Treasurer",
         "Name" : "Sergio Espino" ,
-        "Photo" : "/MemberImgs/default_profile.jpeg"
+        "Photo" : "/acm-website/MemberImgs/default_profile.jpeg"
     },
     {
         "Title" : "Industry Liaison",
         "Name" : "Pamela Ngankem",
-        "Photo" : "/MemberImgs/Pamela_Ngankem.jpeg"
+        "Photo" : "/acm-website/MemberImgs/Pamela_Ngankem.jpeg"
     },
     {
         "Title" : "Events Chair",
         "Name" : "Manny Adeniji",
-        "Photo" : "/MemberImgs/Manny_Adeniji.jpg"
+        "Photo" : "/acm-website/MemberImgs/Manny_Adeniji.jpg"
     },
     {
         "Title" : "Secretary",
         "Name" : "Aaron Weber",
-        "Photo" : "/MemberImgs/Arron_Weber.jpeg"
+        "Photo" : "/acm-website/MemberImgs/Arron_Weber.jpeg"
     },
     {
         "Title" : "Advisor",
         "Name" : "Josh Weese",
-        "Photo" : "/MemberImgs/weese_josh_med.jpg"
+        "Photo" : "/acm-website/MemberImgs/weese_josh_med.jpg"
     }
 ]
