@@ -1,9 +1,5 @@
 [
     {
-        "name": "google",
-        "logo": "/acm-website/LogoImgs/google_logo.svg"
-    },
-    {
         "name" : "netsmart",
         "logo" : "/acm-website/LogoImgs/netsmart-logo.png"
     },
